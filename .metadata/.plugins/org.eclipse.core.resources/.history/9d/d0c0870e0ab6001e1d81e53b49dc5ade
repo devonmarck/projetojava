@@ -1,0 +1,18 @@
+package LgicaDeProgramaçao;
+
+
+
+public class OperadoresAritimeticos {
+
+	public static void main(String[] args) {
+	int numero = 10;
+	System.out.println("Número = " + numero);
+	System.out.println("Soma = " + numero + " + 5 | Soma = "+ (numero + 5));
+	System.out.println("Subtração = " + numero + "- 5 |"
+	System.out.println("Multiplicação = " + numero + 
+	System.out.println("Divisão = " + numero + 
+	System.out.println("Resto = " + numero +  
+
+	}
+
+}
