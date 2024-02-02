@@ -2,3 +2,92 @@
 2024-01-18 08:31:23,351 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2024-01-19 08:47:21,721 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2024-01-22 11:58:01,100 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-01-24 08:20:59,429 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-01-29 08:42:46,390 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-01-30 08:55:03,527 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-01-30 09:03:54,400 [JGit-FileStoreAttributeWriter-2] ERROR org.eclipse.jgit.util.FS - Cannot save config file 'FileBasedConfig[Z:\.config\jgit\config]'
+java.io.IOException: Creating directories for Z:\.config\jgit failed
+	at org.eclipse.jgit.util.FileUtils.mkdirs(FileUtils.java:421)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:144)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:201)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:776)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$5(FS.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-01-30 09:06:58,158 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.3; built: 2023-10-27T03:25:22.284Z; git: a873259fd5af141dedaa6c7fa8fe8fbdedce0d61; jvm 17.0.10+7
+2024-01-30 09:06:58,216 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@25b57276{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@6f4d2f84{STARTED}}
+2024-01-30 09:06:58,217 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2024-01-30 09:06:58,258 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@234eea51{HTTP/1.1, (http/1.1)}{127.0.0.1:52038}
+2024-01-30 09:06:58,267 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@42e6cf9c{STARTING}[12.0.3,sto=0] @731422ms
+2024-01-30 09:06:58,792 [qtp1149832291-105] INFO  o.e.j.e.nested.ContextHandler._help - Warning: No org.apache.tomcat.JarScanner set in ServletContext. Falling back to default JarScanner implementation.
+2024-01-30 09:06:59,106 [qtp1149832291-105] INFO  o.e.j.e.nested.ContextHandler._help - Warning: No org.apache.tomcat.JarScanner set in ServletContext. Falling back to default JarScanner implementation.
+2024-01-30 09:15:23,147 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@42e6cf9c{STOPPING}[12.0.3,sto=0]
+2024-01-30 09:15:23,149 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@234eea51{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2024-01-30 09:15:35,741 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-01-30 09:15:36,945 [Worker-10: Updating Maven Dependencies] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2024-01-30 09:15:39,335 [JGit-FileStoreAttributeWriter-2] ERROR org.eclipse.jgit.util.FS - Cannot save config file 'FileBasedConfig[Z:\.config\jgit\config]'
+java.io.IOException: Creating directories for Z:\.config\jgit failed
+	at org.eclipse.jgit.util.FileUtils.mkdirs(FileUtils.java:421)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:144)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:201)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:776)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$5(FS.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-01-31 09:32:10,939 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-01-31 09:32:14,922 [JGit-FileStoreAttributeWriter-2] ERROR org.eclipse.jgit.util.FS - Cannot save config file 'FileBasedConfig[Z:\.config\jgit\config]'
+java.io.IOException: Creating directories for Z:\.config\jgit failed
+	at org.eclipse.jgit.util.FileUtils.mkdirs(FileUtils.java:421)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:144)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:201)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:776)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$5(FS.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-02-02 08:37:03,247 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-02-02 08:37:07,146 [JGit-FileStoreAttributeWriter-2] ERROR org.eclipse.jgit.util.FS - Cannot save config file 'FileBasedConfig[Z:\.config\jgit\config]'
+java.io.IOException: Creating directories for Z:\.config\jgit failed
+	at org.eclipse.jgit.util.FileUtils.mkdirs(FileUtils.java:421)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:144)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:201)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:776)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$5(FS.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-02-02 08:41:34,380 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-02-02 08:41:38,057 [JGit-FileStoreAttributeWriter-2] ERROR org.eclipse.jgit.util.FS - Cannot save config file 'FileBasedConfig[Z:\.config\jgit\config]'
+java.io.IOException: Creating directories for Z:\.config\jgit failed
+	at org.eclipse.jgit.util.FileUtils.mkdirs(FileUtils.java:421)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:144)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:201)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:776)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$5(FS.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-02-02 08:45:28,821 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-02-02 08:45:31,994 [JGit-FileStoreAttributeWriter-2] ERROR org.eclipse.jgit.util.FS - Cannot save config file 'FileBasedConfig[Z:\.config\jgit\config]'
+java.io.IOException: Creating directories for Z:\.config\jgit failed
+	at org.eclipse.jgit.util.FileUtils.mkdirs(FileUtils.java:421)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:144)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:201)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:776)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$5(FS.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-02-02 08:50:23,332 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-02-02 08:50:26,735 [JGit-FileStoreAttributeWriter-2] ERROR org.eclipse.jgit.util.FS - Cannot save config file 'FileBasedConfig[Z:\.config\jgit\config]'
+java.io.IOException: Creating directories for Z:\.config\jgit failed
+	at org.eclipse.jgit.util.FileUtils.mkdirs(FileUtils.java:421)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:144)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:201)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:776)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$5(FS.java:458)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
